@@ -196,3 +196,7 @@ footer a:not(.nav-link) {
     page-break-before: always;
   }
 }
+
+.text-bold {
+   color: rgb(84, 137, 84);
+}
