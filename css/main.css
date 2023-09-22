@@ -206,24 +206,23 @@ footer a:not(.nav-link) {
   justify-content: center;
   gap: 20px;
   align-items: center;
-
 }
-.certificacion a{
+.certificacion a {
   text-decoration: none;
-  color: #687C6D;
+  color: #687c6d;
 }
 
-.certificacion__info:hover{
+.certificacion__info:hover {
   background-color: #f6f2f2;
   border-radius: 10px;
   cursor: pointer;
 }
 
-.certificacion__info h4{
+.certificacion__info h4 {
   font-size: 14px;
 }
 
-.certificacion__details{
+.certificacion__details {
   font-size: 12px;
 }
 
@@ -231,6 +230,10 @@ footer a:not(.nav-link) {
   width: 100px;
   height: 80px;
   object-fit: contain;
-  /*black and white color*/;
+  /*black and white color*/
   filter: grayscale(70%);
+}
+
+.name {
+  text-shadow: 4px 5px 2px rgba(0, 0, 0, 1);
 }
